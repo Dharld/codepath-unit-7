@@ -1,0 +1,14 @@
+.create-crewmate-container {
+  color: white;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+
+  form {
+    border: 1px solid var(--gray-10);
+    padding: var(--space-4);
+    border-radius: 4px;
+    width: 100%;
+    max-width: 500px;
+  }
+}

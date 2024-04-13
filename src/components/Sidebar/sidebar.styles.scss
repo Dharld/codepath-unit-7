@@ -1,0 +1,31 @@
+.sidebar {
+  width: fit-content;
+  height: 100vh;
+  padding: var(--space-4);
+  border-right: 1px solid var(--gray-10);
+
+  ul.nav__ul {
+    list-style-type: none;
+  }
+  li.nav__li {
+    margin-bottom: var(--space-5);
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+
+      &.active {
+        color: var(--accent-9);
+
+        svg {
+          fill: var(--accent-9);
+        }
+      }
+    }
+
+    svg {
+      fill: white;
+    }
+  }
+}

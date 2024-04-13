@@ -1,0 +1,49 @@
+@import "@radix-ui/themes/styles.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-dark: #1c1c1c;
+  --bg-light: #282828;
+}
+
+body {
+  font-family: "Inter";
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--bg-dark);
+  color: white;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+
+  main {
+    flex: 1;
+  }
+}
+
+.loading-wrapper {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
